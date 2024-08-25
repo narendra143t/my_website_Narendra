@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="home-section">
+        <div class="content">
+            <h1>Hi, Myself</h1>
+            <h2>Kambala Narendra Kumar</h2>
+            <h3>And I'm a <span class="highlight">Java Developer</span></h3>
+            <!-- <p>I am currently a 3rd year ECE (Electronics and Communication Engineering) student at Sathyabama University</p> -->
+            <div class="social-links">
+                <a href="https://github.com/narendra143t"><img src="github.png" alt="Facebook"></a>
+                <a href="narendrakumar93660@gmail.com"><img src="gmail-icon.png" alt="Twitter"></a>
+                <a href="https://www.instagram.com/mr_narendraa?igsh=MTFzeGV6eWx2c21ybQ=="><img src="instagram-icon.png" alt="Instagram"></a>
+                <a href= "https://www.linkedin.com/in/narerndrakambala92?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+            </div>
+            <a href="#" class="download-cv">Download CV</a>
+        </div>
+        <div class="profile-picture">
+            <img src="My-dp.jpg" alt="Narendra">
+        </div>
+    </section>
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="about.jpg" alt="Kambala Narendra Kumar">
+                </div>
+                <div class="about-text">
+                    <h2>About <span>Me</span></h2>
+                    <h3>Software Engineer</h3>
+                    <p>
+                        Hi, I'm Kambala Narendra Kumar, currently pursuing my Bachelor of Engineering (BE) in Electronics and Communication Engineering (ECE) at Sathyabama University. I'm passionate about software development, data structures, and algorithms. I enjoy learning new technologies and applying them in real-world projects.
+                    </p>
+                    <a href="#" class="read-more-btn">Read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2>My <span>Services</span></h2>
+            <div class="services-cards">
+                <div class="service-card">
+                    <div class="icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>
+                        I specialize in front-end and back-end web development using HTML, CSS, JavaScript, and frameworks like React.js and Node.js to build responsive and user-friendly websites.
+                    </p>
+                    <a href="#" class="read-more-btn">Read More</a>
+                </div>
+                <div class="service-card">
+                    <div class="icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Data Structures & Algorithms</h3>
+                    <p>
+                        With strong foundations in DSA, I solve complex problems efficiently and optimize code for performance, using languages like Java and Python.
+                    </p>
+                    <a href="#" class="read-more-btn">Read More</a>
+                </div>
+                <div class="service-card">
+                    <div class="icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>App Development</h3>
+                    <p>
+                        I develop mobile applications using Java, focusing on Android development, with plans to explore hybrid frameworks like React Native for cross-platform compatibility.
+                    </p>
+                    <a href="#" class="read-more-btn">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio">
+        <h2>Latest <span>Projects</span></h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="path-to-image1.jpg" alt="Project 1">
+                <div class="project-info">
+                    <h3>Web Design</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="path-to-image2.jpg" alt="Project 2">
+                <div class="project-info">
+                    <h3>Web Development</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+            </div>
+            <!-- Add more project cards as needed -->
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <h2>Contact <span>Me</span></h2>
+        <div class="contact-container">
+            <form action="#" method="POST" class="contact-form">
+                <div class="form-group">
+                    <input type="text" name="full_name" placeholder="Full Name" required>
+                    <input type="email" name="email_address" placeholder="Email Address" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="mobile_number" placeholder="Mobile Number" required>
+                    <input type="text" name="email_subject" placeholder="Email Subject" required>
+                </div>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+
+            <div class="google-form-option">
+                <p>Or submit your details through the Google Form:</p>
+                <a href="https://docs.google.com/forms/d/your-google-form-link" target="_blank" class="google-form-btn">Submit via Google Form</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Portfolio. All rights reserved.</p>
+    </footer>
+    
+    
+</body>
+</html>
